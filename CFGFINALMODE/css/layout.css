@@ -1,0 +1,79 @@
+#homeBody{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+    
+    height: fit-content;
+    display: grid;
+    grid-template-columns: .2fr 1fr;
+    grid-template-rows: 4vw 120vh 15vw;
+
+    grid-template-areas: 
+    'header header'
+    'main main'
+    'footer footer';
+
+}
+#menuSidebarBody{
+    display: none;
+}
+/* #homeBodySidebar{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+    
+    height: fit-content;
+    display: grid;
+    grid-template-columns: .1fr 1fr;
+    grid-template-rows: 6vw auto 15vw;
+
+    grid-template-areas: 
+    'header header'
+    'sidebar main'
+    'footer footer';
+
+} */
+/* #MainHomeStyles{
+    position: relative;
+    z-index: -1111111111111;
+} */
+
+
+
+#HeaderHomeStyles{
+    grid-area: header;
+    background-color: #831919;
+    display: flex;
+}
+#HeaderColorNight{
+    grid-area: header;
+    
+    display: flex;
+    background-color: #000;
+}
+#HeaderColorLight{
+    grid-area: header;
+    
+    display: flex;
+    background-color: #fff;
+}
+/* #Sidebar{
+    grid-area: sidebar;
+    display: flex;
+    background-color: #fff;;
+} */
+#MainHomeStyles{
+    
+    grid-area: main;
+    background-image: url("../img/imageCoffe.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 9;
+    background-size: cover;
+    justify-content: center;
+}
+#FooterHomeStyles{
+    grid-area: footer;
+    background-color: rgb(128, 68, 0);
+}
+

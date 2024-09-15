@@ -1,0 +1,1061 @@
+#HeaderHomeStyles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#HeaderColorNight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#HeaderColorLight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#MainHomeStyles {
+    display: none;
+}
+/* LOGO */
+#logoStylesHome{
+    display: flex;
+   align-items: center;
+}
+#logoStylesHome img{
+width: 25px;
+height: 25px;
+padding-left: 5%;
+}
+/* Input */
+
+#inputSearchDesktop{
+    display: flex;
+    width: 50vw;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+#inputSearchDesktop input{
+    border: none;
+    width: 100%;
+    padding-left: 5%;
+    border-radius: 5px;
+    outline: none;
+    
+}
+#inputSearchDesktop img{
+    width: 25px;
+    height: 25px;
+    
+}
+#logoStylesHome{
+    align-items: center;
+}
+#logoStylesHome button {
+    background-color: transparent;
+    margin-left: 5px;
+    width: 25px;
+    height: 25px;
+}
+#logoStylesHome  img {
+    background-color: transparent;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+/* sunmoon */
+#sunMoonStylesHome, img{
+    height: 25px;
+    background-color: transparent;
+    
+}
+#sunMoonStylesHome button{
+    background-color: transparent;
+    cursor: pointer;
+}
+/* POR PADRÃO O MENU É DISPLAY:NONE */
+#menuButton{
+    display: none;
+}
+/* nav */
+#navStylesHome{
+    display: flex;
+    margin-right: 5%;
+    align-items: center;
+    
+}
+#navStylesHome button{
+    background-color: transparent;
+    
+    
+}
+
+#navStylesHome ul{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+/* MAIN CONFIGS */
+#MainHomeStyles{
+    display: flex;
+    
+   
+    
+}
+
+#columnGroupDivDesktop3{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 7%;
+    margin-left: 5% ;
+    
+}
+#columnGroupDivDesktop3 p{
+    font-size: 90px;
+    
+}
+#columnGroupDivDesktop3 img{
+   width: 150px;
+   height: 150px;
+}
+
+#regraMove{
+
+    margin-left: 10%;
+     margin-top: 1vw;
+    width: 50vw;
+    height: 45vh;
+    margin-top: 10%;
+
+    gap: 5px;
+}
+#rowGroupDivDesktop1{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 25px;
+    
+}
+#rowGroupDivDesktop2{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 25px;
+    
+}
+#rowGroupDivDesktop1 div{
+    display: flex;
+    border-radius:  5px 5px 5px 5px;
+    flex-direction: column;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    transform: scale(1.00);
+    align-items: center;
+    justify-content: center;
+    transition: transform .2s ease-in-out;
+    
+    
+    margin-bottom: 5%;
+}
+#rowGroupDivDesktop1 img{
+    width: 150px;
+    height: 150px;
+    border-radius:  5px 5px 0 0;
+}
+#rowGroupDivDesktop2 img{
+    width: 110px;
+    height: 100px;
+    padding: 2px;
+}
+#rowGroupDivDesktop2 div{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    transform: scale(1.00);
+    align-items: center;
+    border-radius:  5px 5px 5px 5px;
+    width: 150px;
+    height: auto;
+    transition: transform .2s ease-in-out;
+   
+}
+#rowGroupDivDesktop1{
+    display: flex;
+    
+}
+#rowGroupDivDesktop2{
+    display: flex;
+    
+}
+
+#p_cafe2,#p_cafe3,#p_cafe3,#p_cafe4,#p_cafe5{
+    display: flex;
+    background: black;
+    justify-content: center;
+    color: #fff;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    height: max-content;
+    font-size: 15px;
+    padding: 5%;
+}
+
+#FooterHomeStyles{
+    background-color: #000000;
+}
+#boxFooterHomeP{
+    display: flex;
+
+}
+#topicsFooter {
+    display: flex;
+    color: #fff;
+    width: 100%;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-top: 5%;
+    
+    
+}
+#topicsFooter p {
+    padding-bottom: 5px;
+    
+    
+}
+
+#working{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+#working div{
+    display: flex;
+    height: 10px;
+    width: 2px;
+    background-color: #fff;
+    color: #fff;
+    
+
+
+}
+#working  p{
+    color: #fff;
+    font-size: 7px;
+
+
+}
+
+
+/* segundo paragrafo do footer */
+#About {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+
+}
+#About div{
+    display: flex;
+    height: 10px;
+    width: 2px;
+    background-color: #fff;
+    color: #fff;
+    
+
+
+}
+#inputSearchMobile{
+    display: none;
+}
+#About  p{
+    color: #fff;
+    font-size: 7px;
+
+
+}
+#bodySpanPush{
+    display: none;
+
+    
+    width: 100%;
+    
+}
+#bodySpanPush div{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    
+}
+#bodySpanPush span{
+    width: 5vw;
+    height: 2vw;
+    background-color: #fff;
+    
+}
+
+#ulSidebar button:hover{
+    cursor: pointer;
+    font-size: 17px;
+}
+
+#rowGroupDivDesktop1 div:hover , #rowGroupDivDesktop2 div:hover{
+
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#menuSidebarBody{
+    display: none;
+}
+
+#lisTargetDisplay li:hover{
+    cursor: pointer;
+   
+}
+
+@media  (min-width:471px) and (max-width:800px) {
+    #homeBody{
+        width: 100%;
+        min-height: 100vh;
+        background-color: #F9D2AD;
+        
+        height: fit-content;
+        display: grid;
+        grid-template-columns: .2fr 1fr;
+        grid-template-rows: 9vw auto 15vw;
+        
+        grid-template-areas: 
+        'header header'
+        'main main'
+        'footer footer';
+    
+    }
+
+    #menuSidebarBody{
+        display: flex;
+        position: absolute;
+        justify-self: start;
+        align-self: start;
+        z-index: 1111;
+        
+        width: 50%;
+        height:310vh;
+        
+        padding-top: 5%;
+        background-color: #831919;
+        border-top: 1px solid #d13c3c;
+        border-bottom: 2px solid #d13c3c;
+    }
+
+    #menuSidebarBody h3{
+        
+        padding-left: 10%;
+        margin-bottom: 10%;
+        margin-top: 5%;
+        
+
+    }
+
+
+
+    #menuSidebarBody li{
+        margin-bottom: 10%;
+        padding-left: 10%;
+
+    }
+    #menuSidebarBody ul{
+        width:100%;
+        
+
+    }
+    #menuSidebarBody hr{
+        background-color: rgb(155, 2, 2);
+        height: 2px;
+        margin: 0;
+        padding-right: 10%;
+        
+
+    }
+    #menuSidebarBody button{
+        background-color: transparent;
+        font-size: 15PX;
+        text-transform: capitalize;
+
+        
+
+    }
+
+    #MainHomeStyles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        background-image: url("../img/imageCoffe.png");
+        height: 310vh;
+        
+        margin-top: 0;
+       
+        
+    }
+    #rowGroupDivDesktop1 ,#rowGroupDivDesktop2{
+        width: 75vw;
+        
+    }
+    #rowGroupDivDesktop1 div{
+        display: flex;
+        border-radius:  5px 5px 5px 5px;
+        flex-direction: column;
+        background-color: white;
+        width: 150px;
+        height: 150px;
+        align-items: center;
+        justify-content: center;
+        
+        
+        
+        
+        
+        margin-bottom: 5%;
+    }
+    #rowGroupDivDesktop1 img{
+        width: 150px;
+        height: 150px;
+        padding-top: 5%;
+        border-radius:  5px 5px 0 0;
+    }
+    #rowGroupDivDesktop2 img{
+        width: 110px;
+        height: 120px;
+        padding-top: 5%;
+    }
+    #rowGroupDivDesktop2 div{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        border-radius:  5px 5px 5px 5px;
+        width: 150px;
+        height: 150px;
+        /* height: 100%; */
+       
+    }
+    #rowGroupDivDesktop1{
+        display: flex;
+        
+    }
+    #rowGroupDivDesktop2{
+        display: flex;
+        
+    }
+    
+    #p_cafe2,#p_cafe3,#p_cafe3,#p_cafe4,#p_cafe5{
+        display: flex;
+        background: black;
+        justify-content: center;
+        color: #fff;
+        width: 100%;
+        border-radius: 0 0 5px 5px;
+        height: 20%;
+    }
+    #navStylesHome{
+        display: none;
+    }
+    #menuButton{
+        display: block;
+    }
+    #sunMoonStylesHome{
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+        cursor: pointer;
+    }
+    #regraMove{
+
+        margin-right: 35%;
+        margin-top: 10%;
+        width: 50vw;
+        height: 45vh;
+        
+    
+        gap: 5px;
+    }
+    #FooterHomeStyles{
+        display: flex;
+        align-items: center;
+    }
+    #bodySpanPush{
+        display: flex;
+       
+        
+        width: 100%;
+        
+        
+    }
+    #bodySpanPush div{
+        display: flex;
+        justify-content: center;
+    
+        width: 100%;
+        
+    }
+    #bodySpanPush span{
+        width: 15vw;
+        height: 1vw;
+        border-radius: 5px;
+        
+        background-color: #BDBDBD;
+        
+    }
+    #topicsFooter{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (min-width:100px) and (max-width:470px) {
+    #homeBody{
+        width: 100%;
+        min-height: 100vh;
+        background-color: #F9D2AD;
+        
+        height: fit-content;
+        display: grid;
+        grid-template-columns: .2fr 1fr;
+        grid-template-rows: 9vw auto 15vw;
+        
+        grid-template-areas: 
+        'header header'
+        'main main'
+        'footer footer';
+    
+    }
+
+    #menuSidebarBody{
+        display: flex;
+        position: absolute;
+        justify-self: start;
+        align-self: start;
+        z-index: 1111;
+        
+        width: 50%;
+        height: 320vh;
+        background-color: #831919;
+        border-top: 1px solid #d13c3c;
+        border-bottom: 2px solid #d13c3c;
+    }
+
+    #menuSidebarBody h3{
+        
+        padding-left: 10%;
+        margin-bottom: 10%;
+        margin-top: 5%;
+        
+
+    }
+    
+
+
+
+    #menuSidebarBody li{
+        margin-bottom: 10%;
+        padding-left: 10%;
+
+    }
+    #menuSidebarBody ul{
+        width:100%;
+        margin-top: 15%;
+        
+
+    }
+    #menuSidebarBody hr{
+        background-color: rgb(155, 2, 2);
+        height: 2px;
+        margin: 0;
+        padding-right: 10%;
+        
+
+    }
+    #menuSidebarBody button{
+        background-color: transparent;
+        font-size: 15PX;
+        text-transform: capitalize;
+
+        
+
+    }
+
+
+
+
+
+    #inputSearchMobile{
+
+        display: flex;
+        width: 65vw;
+        background-color: #fff;
+        border-radius: 5px;
+        height: 35px;
+        margin-top: 5%;
+      
+        
+        align-items: center;
+        justify-content: space-between;
+    }
+    #inputSearchDesktop{
+        display: none;
+    }
+    #inputSearchMobile input {
+        border: none;
+        padding-left: 5px;
+        width: 100%;
+        border-radius: 5px;
+        
+       
+        outline: none;
+        
+    }
+    #MainHomeStyles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url("../img/cereja.png");
+        height: 320vh;
+        justify-content: start;
+        
+       
+        
+    }
+    #rowGroupDivDesktop1 ,#rowGroupDivDesktop2{
+        width: 75vw;
+        flex-wrap: wrap;
+        gap:15px;
+    }
+    #rowGroupDivDesktop1 div{
+        display: flex;
+        border-radius:  5px 5px 5px 5px;
+        flex-direction: column;
+        background-color: white;
+        width:150px;
+        height:150px;
+        align-items: center;
+        justify-content: center;
+        
+        
+        
+        
+        margin-bottom: 5%;
+    }
+    #rowGroupDivDesktop1 img{
+        width:150px;
+        height:150px;
+        padding-top: 5%;
+        border-radius:  5px 5px 0 0;
+    }
+    #rowGroupDivDesktop2 img{
+        width:130px;
+        height:130px;
+        padding-top: 5%;
+    }
+    #rowGroupDivDesktop2 div{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        border-radius:  5px 5px 5px 5px;
+        width:150px;
+        height:150px;
+
+       
+    }
+    #rowGroupDivDesktop1{
+        display: flex;
+        
+    }
+    #rowGroupDivDesktop2{
+        display: flex;
+        
+    }
+    
+    #p_cafe2,#p_cafe3,#p_cafe3,#p_cafe4,#p_cafe5{
+        display: flex;
+        background: black;
+        justify-content: center;
+        color: #fff;
+        width: 100%;
+        border-radius: 0 0 5px 5px;
+        height: 20%;
+    }
+    #navStylesHome{
+        display: none;
+    }
+    #menuButton{
+        display: block;
+    }
+    #sunMoonStylesHome{
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+    }
+    #regraMove{
+
+        margin-right: 35%;
+        margin-top: 10%;
+        width: 50vw;
+        height: 45vh;
+        
+        flex-shrink: 1;
+        gap: 5px;
+    }
+    #FooterHomeStyles{
+        display: flex;
+        align-items: center;
+    }
+    #bodySpanPush{
+        display: flex;
+       
+        
+        width: 100%;
+        
+        
+    }
+    #bodySpanPush div{
+        display: flex;
+        justify-content: center;
+    
+        width: 100%;
+        
+    }
+    #bodySpanPush span{
+        width: 15vw;
+        height: 1vw;
+        border-radius: 5px;
+        
+        background-color: #BDBDBD;
+        
+    }
+    #topicsFooter{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+/* MOBILE */
+
+
+
+/* @media  (max-width:350px) {
+    #homeBody{
+        width: 100%;
+        min-height: 100vh;
+        background-color: #F9D2AD;
+        
+        height: fit-content;
+        display: grid;
+        grid-template-columns: .2fr 1fr;
+        grid-template-rows: 9vw auto 15vw;
+        
+        grid-template-areas: 
+        'header header'
+        'main main'
+        'footer footer';
+    
+    }
+    #MainHomeStyles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url("../img/cereja.png");
+        height: 190vh;
+        
+       
+        
+    }
+    #rowGroupDivDesktop1 ,#rowGroupDivDesktop2{
+        gap: 30px;
+        
+    }
+    #rowGroupDivDesktop1 div{
+        display: flex;
+        border-radius:  5px 5px 5px 5px;
+        flex-direction: column;
+        background-color: white;
+        min-width: 35vw;
+        max-width: 45vw;
+        height: 25vh;
+        align-items: center;
+        justify-content: center;
+        
+        
+        
+        
+        margin-bottom: 5%;
+    }
+    #rowGroupDivDesktop1 img{
+        width: 100%;
+        height: 100%;
+        border-radius:  5px 5px 0 0;
+    }
+    #rowGroupDivDesktop2 img{
+        width: 100%;
+        height: 100%;
+    }
+    #rowGroupDivDesktop2 div{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        border-radius:  5px 5px 5px 5px;
+        min-width: 35vw;
+        max-width: 45vw;
+        height: 25vh;
+       
+    }
+    #rowGroupDivDesktop1{
+        display: flex;
+        
+    }
+    #rowGroupDivDesktop2{
+        display: flex;
+        
+    }
+    
+    #p_cafe2,#p_cafe3,#p_cafe3,#p_cafe4,#p_cafe5{
+        display: flex;
+        background: black;
+        justify-content: center;
+        color: #fff;
+        width: 100%;
+        border-radius: 0 0 5px 5px;
+        height: max-content;
+    }
+    #navStylesHome{
+        display: none;
+    }
+    #menuButton{
+        display: block;
+    }
+    #sunMoonStylesHome{
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+    }
+    #regraMove{
+
+        margin-right: 43%;
+        margin-top: 15%;
+        width: 50vw;
+        height: 45vh;
+        
+    
+        gap: 5px;
+    }
+    #FooterHomeStyles{
+        display: flex;
+        align-items: center;
+    }
+    #bodySpanPush{
+        display: flex;
+       
+        
+        width: 100%;
+        
+        
+    }
+    #bodySpanPush div{
+        display: flex;
+        justify-content: center;
+    
+        width: 100%;
+        
+    }
+    #bodySpanPush span{
+        width: 15vw;
+        height: 1vw;
+        border-radius: 5px;
+        
+        background-color: #BDBDBD;
+        
+    }
+    #topicsFooter{
+        display: none;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive 800px */
+
+/* @media  (min-width:800px)  and (max-width:1020px){
+    #homeBody{
+        
+        width: 100%;
+        min-height: 100vh;
+        background-color: #F9D2AD;
+        
+        height: fit-content;
+        display: grid;
+        
+        grid-template-columns: .2fr 1fr;
+        grid-template-rows: 9vw auto 15vw;
+        
+        grid-template-areas: 
+        'header header'
+        'main main'
+        'footer footer';
+    
+    }
+    #MainHomeStyles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url("../img/purchaseCar.png");
+        height: 190vh;
+        
+       
+        
+    }
+    #rowGroupDivDesktop1 ,#rowGroupDivDesktop2{
+        gap: 30px;
+    }
+    #rowGroupDivDesktop1 div{
+        display: flex;
+        border-radius:  5px 5px 5px 5px;
+        flex-direction: column;
+        background-color: white;
+        min-width: 35vw;
+        max-width: 45vw;
+        height: 25vh;
+        align-items: center;
+        justify-content: center;
+        
+        
+        
+        
+        margin-bottom: 5%;
+    }
+    #rowGroupDivDesktop1 img{
+        width: 100%;
+        height: 100%;
+        border-radius:  5px 5px 0 0;
+    }
+    #rowGroupDivDesktop2 img{
+        width: 100%;
+        height: 100%;
+    }
+    #rowGroupDivDesktop2 div{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        border-radius:  5px 5px 5px 5px;
+        min-width: 35vw;
+        max-width: 45vw;
+        height: 25vh;
+       
+    }
+    #rowGroupDivDesktop1{
+        display: flex;
+        
+    }
+    #rowGroupDivDesktop2{
+        display: flex;
+        
+    }
+    
+    #p_cafe2,#p_cafe3,#p_cafe3,#p_cafe4,#p_cafe5{
+        display: flex;
+        background: black;
+        justify-content: center;
+        color: #fff;
+        width: 100%;
+        border-radius: 0 0 5px 5px;
+        height: max-content;
+    }
+    #navStylesHome{
+        display: none;
+    }
+    #menuButton{
+        display: block;
+    }
+    #sunMoonStylesHome{
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+    }
+    #regraMove{
+
+        margin-right: 43%;
+        margin-top: 15%;
+        width: 50vw;
+        height: 45vh;
+        
+    
+        gap: 5px;
+    }
+    #FooterHomeStyles{
+        display: flex;
+        align-items: center;
+    }
+    #bodySpanPush{
+        display: flex;
+       
+        
+        width: 100%;
+        
+        
+    }
+    #bodySpanPush div{
+        display: flex;
+        justify-content: center;
+    
+        width: 100%;
+        
+    }
+    #bodySpanPush span{
+        width: 15vw;
+        height: 1vw;
+        border-radius: 5px;
+        
+        background-color: #BDBDBD;
+        
+    }
+    #topicsFooter{
+        display: none;
+    }
+} */

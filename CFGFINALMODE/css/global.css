@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: "Rubik", monospace;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: capitalize;
+
+}
+
+#menuSidebarBody{
+    display: none;
+}
